@@ -120,6 +120,12 @@
     }
   }
 
+  &__phone:focus,
+  &__logo:focus,
+  &__action:focus {
+    outline: 1px solid $c-white;
+  }
+
   &__title {
     position: absolute;
     top: 414px;

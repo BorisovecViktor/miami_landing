@@ -30,3 +30,15 @@ ul {
 a {
   text-decoration: none;
 }
+
+:focus {
+  outline: none;
+}
+
+a:active {
+  outline: none;
+}
+
+a:visited {
+  outline: none;
+}

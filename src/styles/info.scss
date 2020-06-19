@@ -30,6 +30,10 @@
     &:hover {
       opacity: $hover-opasity;
     }
+
+    &:focus {
+      border-bottom: 1px solid $c-blue;
+    }
   }
 
   &__text {

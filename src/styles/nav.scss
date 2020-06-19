@@ -105,5 +105,9 @@
     &--mobile {
       font-size: 12px;
     }
+
+    &:focus {
+      outline: 1px solid $c-white;
+    }
   }
 }
