@@ -31,20 +31,6 @@
       }
     }
 
-    &--active {
-      background-color: rgba(255,255,255,0.1);
-      border-radius: 8px;
-      &:hover {
-        cursor: default;
-      }
-
-      @media (max-width: $mobile-screen-breakpoints) {
-        & {
-          background-color: $c-blue;
-        }
-      }
-    }
-
     &--mobile {
       display: none;
 
@@ -66,6 +52,17 @@
     letter-spacing: 2px;
     font-weight: 700;
     transition: color $hover-duration;
+
+    &--active {
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 8px;
+
+      @media (max-width: $mobile-screen-breakpoints) {
+        & {
+          background-color: $c-blue;
+        }
+      }
+    }
 
     &--decor {
       position: relative;
@@ -107,7 +104,7 @@
     }
 
     &:focus {
-      outline: 1px solid $c-white;
+      outline: 1px solid transparent;
     }
   }
 }
