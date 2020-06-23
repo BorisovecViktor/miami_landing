@@ -2,6 +2,7 @@
 
 const list = document.querySelector('.nav__list');
 const link = document.querySelectorAll('.nav__link');
+const navCheckbox = document.querySelector('.header__toggle-button');
 const galleryBtn = document.querySelector('.gallery__button');
 const galleryItem = document.querySelectorAll('.gallery__item');
 const formContact = document.querySelector('.contact__form');
@@ -18,6 +19,7 @@ list.addEventListener('click', (e) => {
       item.classList.remove('nav__link--active');
     });
     target.classList.add('nav__link--active');
+    navCheckbox.checked = false;
   }
 });
 
