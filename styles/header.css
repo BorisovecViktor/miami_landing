@@ -1,0 +1,156 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -640px;
+  height: 700px;
+  padding: 24px 20px 0;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1; }
+  @media (max-width: 679px) {
+    .header {
+      position: static;
+      height: 100vh; } }
+  .header__container {
+    position: relative;
+    max-width: 1020px;
+    height: 100%;
+    margin: 0 auto; }
+  .header__nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 28px; }
+  .header__top {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px; }
+  .header__phone {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .header__phone:hover {
+      color: #9fadc2; }
+    @media (max-width: 679px) {
+      .header__phone {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        font-size: 0;
+        background-image: url(../images/phone-icon.svg); } }
+  .header__logo {
+    z-index: 1; }
+    @media (max-width: 679px) {
+      .header__logo {
+        margin: 0 auto; } }
+  .header__logo img {
+    width: 115px;
+    height: auto; }
+    @media (max-width: 679px) {
+      .header__logo img {
+        width: 73px; } }
+  .header__toggle-icon {
+    display: none;
+    width: 18px;
+    height: 12px;
+    background-image: url(../images/menu-icon.svg);
+    cursor: pointer;
+    -webkit-transition: background-image 0.2s;
+    transition: background-image 0.2s; }
+    @media (max-width: 679px) {
+      .header__toggle-icon {
+        display: block;
+        position: absolute;
+        top: 26px;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        right: 0;
+        z-index: 1; } }
+  .header__action {
+    position: relative;
+    padding: 8px 0;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .header__action:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #9fadc2; }
+    .header__action:hover {
+      color: #9fadc2; }
+    @media (max-width: 679px) {
+      .header__action {
+        display: none; } }
+  .header__phone:focus, .header__logo:focus, .header__action:focus {
+    outline: 1px solid #fff; }
+  .header__title {
+    position: absolute;
+    top: 414px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    color: #fff;
+    font-weight: 700; }
+    @media (max-width: 767px) {
+      .header__title {
+        font-size: 55px;
+        line-height: 50px; } }
+    @media (max-width: 679px) {
+      .header__title {
+        top: 407px;
+        letter-spacing: -1px;
+        font-size: 46px;
+        line-height: 40px; } }
+    .header__title:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -16px;
+      width: 35px;
+      height: 2px;
+      border-radius: 2px;
+      background-color: #fff; }
+  .header__toggle-button {
+    display: none; }
+    @media (max-width: 679px) {
+      .header__toggle-button:checked ~ .nav {
+        display: block;
+        top: 0;
+        bottom: 0;
+        margin: -24px -20px 0; }
+        .header__toggle-button:checked ~ .nav .nav__list {
+          position: absolute;
+          -webkit-animation: 0.5s anim-menu;
+                  animation: 0.5s anim-menu; }
+      @-webkit-keyframes anim-menu {
+        from {
+          left: -200px; }
+        to {
+          left: 0; } }
+      @keyframes anim-menu {
+        from {
+          left: -200px; }
+        to {
+          left: 0; } }
+      .header__toggle-button:checked + .header__toggle-icon {
+        width: 16px;
+        height: 16px;
+        background-image: url(../images/menu-close-icon.svg); } }
+
+/*# sourceMappingURL=header.css.map */

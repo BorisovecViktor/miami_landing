@@ -1,0 +1,18 @@
+.button {
+  display: block;
+  width: 188px;
+  height: 56px;
+  margin: 0 auto;
+  border: 2px solid #0075ff;
+  border-radius: 8px;
+  color: #0075ff;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .button:hover, .button:focus {
+    color: #fff;
+    background-color: #0075ff;
+    -webkit-box-shadow: 3px 3px 6px 0 #0075ff;
+    box-shadow: 3px 3px 6px 0 #0075ff; }
+
+/*# sourceMappingURL=button.css.map */
