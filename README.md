@@ -1,6 +1,6 @@
 # Miami landing page
 
-[DEMO PAGE](https://borisovecviktor.github.io/miami/)
+[DEMO PAGE](https://borisovecviktor.github.io/miami_landing/)
 
 ## Description
 Miami implemented following Figma layout [this design](https://www.figma.com/file/nHz8bflIwJaWP3P99vKTH5/miami_home_new?node-id=0%3A2).
@@ -10,7 +10,7 @@ Miami implemented following Figma layout [this design](https://www.figma.com/fil
 - JavaScript
 
 ### How to run it
-1. Clone the repository git clone https://github.com/borisovecviktor/miami.git
-2. Go into project folder cd miami
+1. Clone the repository git clone https://github.com/borisovecviktor/miami_landing.git
+2. Go into project folder cd miami_landing
 3. Run npm install
 4. Open in your Browser http://localhost:8080
