@@ -13,4 +13,4 @@ Miami implemented following Figma layout [this design](https://www.figma.com/fil
 1. Clone the repository git clone https://github.com/borisovecviktor/miami.git
 2. Go into project folder cd miami
 3. Run npm install
-4. Open in your Browser http://localhost:3000
+4. Open in your Browser http://localhost:8080
